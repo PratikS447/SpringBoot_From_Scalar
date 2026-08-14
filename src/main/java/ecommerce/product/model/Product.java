@@ -7,12 +7,10 @@ import lombok.Setter;
 @Getter
 @Setter
 @Data
-public class Product {
+public class Product{
     private Long id;
     private String title;
-    private String description;
     private Double price;
-    private String image;
+    private String description;
     private String category;
-    private String seller;
 }

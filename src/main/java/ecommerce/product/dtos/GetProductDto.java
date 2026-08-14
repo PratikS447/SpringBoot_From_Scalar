@@ -1,12 +1,14 @@
 package ecommerce.product.dtos;
 
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
+@Data
 public class GetProductDto {
-    private String name;
+    private String title;
     private Double price;
-    private String imageUrl;
+    private String description;
 }
